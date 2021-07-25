@@ -3,31 +3,87 @@
     #heroText {
         font-size: 10vw;
     }
+
+    #BlueButton {
+        padding: 1.5vh 4vw;
+    }
+
+    #GreenButton {
+        padding: 1.5vh 4vw;
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     #heroText {
-        font-size: 6vw;
+        font-size: 7vw;
+    }
+
+    #BlueButton {
+        padding: 2vh 3vw;
+    }
+
+    #GreenButton {
+        padding: 2vh 3vw;
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    #heroText {
+        font-size: 6vw;
+    }
 
+    #BlueButton {
+        padding: 2vh 3vw;
+    }
+
+    #GreenButton {
+        padding: 2vh 3vw;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    #heroText {
+        font-size: 6vw;
+    }
 
+    #BlueButton {
+        padding: 2vh 2.5vw;
+    }
+
+    #GreenButton {
+        padding: 2vh 2.5vw;
+    }
 }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    #heroText {
+        font-size: 6vw;
+    }
 
+    #BlueButton {
+        padding: 2vh 2vw;
+    }
+
+    #GreenButton {
+        padding: 2vh 2vw;
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-    
+    #heroText {
+        font-size: 6vw;
+    }
+
+    #BlueButton {
+        padding: 2vh 2vw;
+    }
+
+    #GreenButton {
+        padding: 2vh 2vw;
+    }
 }

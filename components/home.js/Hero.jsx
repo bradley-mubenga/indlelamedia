@@ -8,7 +8,7 @@ export default function Hero() {
                 <div className="row">
                     <h1 id="heroText">Find the best NPO for your next CSI initiative</h1>
 
-                    <div>
+                    <div id="heroButtons">
                         <BlueButton text={"Learn More"} route={"/about"}/>
                         <GreenButton text={"Consultation"} route={"/about"}/>
                     </div>

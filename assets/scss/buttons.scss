@@ -1,0 +1,14 @@
+@use '../scss/palette.scss' as pallet;
+
+
+#BlueButton {
+    border: none;
+    background-color: pallet.$teal-blue;
+    color: white;
+}
+
+#GreenButton {
+    border: none;
+    background-color: pallet.$yellow-green-crayola;
+    color: black;
+}

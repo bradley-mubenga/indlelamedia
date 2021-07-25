@@ -1,15 +1,14 @@
 import React from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 export function BlueButton({text, route}) {
     return (
-        <Link href={route}>{text}</Link>
+        <button id="BlueButton" href={route} className="m-3">{text}</button>
     )
 }
 
 export function GreenButton({text, route}) {
     return (
-        <Link href={route}>{text}</Link>
+        <button id="GreenButton" href={route} className="m-3">{text}</button>
     )
 }
