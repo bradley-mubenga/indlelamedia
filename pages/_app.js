@@ -1,7 +1,8 @@
 ///SCSS & CSS
-import '../assets/scss/home.scss';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/fullpage.js/dist/fullpage.css';
+import '../assets/scss/home.scss';
+import '../assets/scss/responsive.scss';
+import '../assets/scss/_global.scss';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

@@ -1,13 +1,23 @@
-//React Modules
+//React & Next.js Modules
 import React from 'react';
 import Head from 'next/head';
 
+//Components
+import Hero from '../components/home.js/Hero';
+
 export default function Index() {
     return (
-        <div>
+        <>
             <Head>
-                <title>This Is The Home Page</title>
+                <title>Home Page</title>
             </Head>
-        </div>
+            
+            <main>
+                <Hero />
+                <div>
+                    HELLO WORLD
+                </div>
+            </main>
+        </>
     )
 }
