@@ -4,6 +4,7 @@ import Head from 'next/head';
 
 //Components
 import Hero from '../components/home.js/Hero';
+import Navbar from '../components/Navbar';
 
 export default function Index() {
     return (
@@ -11,6 +12,8 @@ export default function Index() {
             <Head>
                 <title>Home Page</title>
             </Head>
+
+            <Navbar />
             
             <main>
                 <Hero />
