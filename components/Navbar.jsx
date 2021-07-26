@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Navbar() {
+    const [ navbarClass, setNavbarClass ] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 177) {
+                setNavbarClass(true);
+            }
+    
+            else {
+                setNavbarClass(false)
+            }
+        });
+    });
+
     return (
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <nav class={navbarClass ? 'navbar navbar-expand-md navbar-dark fixed-top navActive navClass' : 'navbar navbar-expand-md navbar-dark fixed-top navNotActive'}>
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    Logo
+                    <Image src={navbarClass ? "/indlela-media-logo-color.png" : "/indlela-media-logo-white.png"} width="184px" height="53px" alt="Indlela Media Logo" />
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class={navbarClass ? "navbar-toggler togglerBlack" : "navbar-toggler" } type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 

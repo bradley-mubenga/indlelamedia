@@ -1,0 +1,21 @@
+@use '../scss/palette.scss' as pallet;
+.nav-link {
+    font-weight: bolder;
+}
+
+.navActive {
+  background-color: white; 
+  transition: ease 0.5s;
+
+  .nav-link {
+      color: pallet.$teal-blue !important;
+  }
+
+  .active {
+      color: pallet.$dark-cornflower-blue !important;
+  }
+}
+
+.togglerBlack {
+    background-color: pallet.$dark-cornflower-blue;
+}
