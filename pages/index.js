@@ -3,7 +3,7 @@ import React from 'react';
 import Head from 'next/head';
 
 //Components
-import Hero from '../components/home.js/Hero';
+import HeroSection from '../components/home.js/Hero';
 import Navbar from '../components/Navbar';
 
 export default function Index() {
@@ -16,7 +16,7 @@ export default function Index() {
             <Navbar />
             
             <main>
-                <Hero />
+                <HeroSection />
                 <div>
                     HELLO WORLD
                 </div>
