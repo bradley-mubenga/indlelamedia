@@ -20,6 +20,8 @@ export default function Navbar() {
         <nav className={navbarClass ? 'navbar navbar-expand-md navbar-dark fixed-top navActive navclassName' : 'navbar navbar-expand-md navbar-dark fixed-top navNotActive'}>
             <div className="container">
                 <a className="navbar-brand" href="#">
+
+                    { /*TODO Make This Logo Width Responsive According To DOM Width And Logo px Ratio*/ }
                     <Image src={navbarClass ? "/indlela-media-logo-color.png" : "/indlela-media-logo-white.png"} width="184px" height="53px" alt="Indlela Media Logo" />
                 </a>
 

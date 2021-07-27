@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/home.js/Hero';
 import CallToAction from '../components/home.js/CallToAction';
+import TheProcess from '../components/home.js/TheProcess';
 
 export default function Index() {
     return (
@@ -19,6 +20,7 @@ export default function Index() {
             <main>
                 <HeroSection />
                 <CallToAction />
+                <TheProcess />
             </main>
         </>
     )
