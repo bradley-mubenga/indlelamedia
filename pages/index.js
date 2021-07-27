@@ -3,8 +3,9 @@ import React from 'react';
 import Head from 'next/head';
 
 //Components
-import HeroSection from '../components/home.js/Hero';
 import Navbar from '../components/Navbar';
+import HeroSection from '../components/home.js/Hero';
+import CallToAction from '../components/home.js/CallToAction';
 
 export default function Index() {
     return (
@@ -17,9 +18,7 @@ export default function Index() {
             
             <main>
                 <HeroSection />
-                <div>
-                    HELLO WORLD
-                </div>
+                <CallToAction />
             </main>
         </>
     )

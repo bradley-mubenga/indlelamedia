@@ -14,8 +14,16 @@
   .active {
       color: pallet.$dark-cornflower-blue !important;
   }
+
+  .togglerBlack {
+    background-color: pallet.$dark-cornflower-blue;
+    }
 }
 
-.togglerBlack {
-    background-color: pallet.$dark-cornflower-blue;
+.navNotActive {
+    transition: ease 0.5s;
+
+    .togglerWhite {
+        background-color: rgba(255, 255, 255, 0.616);
+    }
 }

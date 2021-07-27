@@ -1,3 +1,5 @@
+@use '../scss/palette.scss' as pallet;
+
 //HERO SECTION//
 #heroSection {
     background-image: url('../images/background.jpg');
@@ -12,4 +14,12 @@
 #heroText {
     color: white;
     font-weight: 900;
+}
+
+//CALL TO ACTION SECTION//
+#callToActionSection {
+    background-color: pallet.$teal-blue;
+    p.lead {
+        color: white;
+    }
 }

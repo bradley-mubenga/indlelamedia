@@ -11,10 +11,15 @@
     #GreenButton {
         padding: 1.5vh 4vw;
     }
+
+    .callToActionText {
+        font-size: 5vw;
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+    //HERO SECTION//
     #heroText {
         font-size: 7vw;
     }
@@ -25,6 +30,10 @@
 
     #GreenButton {
         padding: 2vh 3vw;
+    }
+
+    .callToActionText {
+        font-size: 4vw;
     }
 }
 
@@ -41,6 +50,10 @@
     #GreenButton {
         padding: 2vh 3vw;
     }
+
+    .callToActionText {
+        font-size: 4vw;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -55,6 +68,10 @@
 
     #GreenButton {
         padding: 2vh 2.5vw;
+    }
+
+    .callToActionText {
+        font-size: 3vw;
     }
 }
 
@@ -71,6 +88,10 @@
     #GreenButton {
         padding: 2vh 2vw;
     }
+
+    .callToActionText {
+        font-size: 3vw;
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
@@ -85,5 +106,9 @@
 
     #GreenButton {
         padding: 2vh 2vw;
+    }
+
+    .callToActionText {
+        font-size: 2.5vw;
     }
 }
