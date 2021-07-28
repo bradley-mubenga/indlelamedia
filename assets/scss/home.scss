@@ -29,3 +29,33 @@
     color: pallet.$teal-blue;
     font-weight: bolder;
 }
+
+.processIconText {
+    color: white;
+}
+
+.processIconBox1{
+    margin: 1em 0;
+    background-color: pallet.$teal-blue;
+
+    .processIconH1 {
+        color: white;
+    }
+}
+
+.processIconBox2{
+    background-color: pallet.$morning-blue;
+
+    .processIconH1 {
+        color: white;
+    }
+}
+
+.processIconBox3 {
+    margin: 1em 0;
+    background-color: pallet.$yellow-green-crayola;
+
+    .processIconH1 {
+        color: white;
+    }
+}
