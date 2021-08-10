@@ -5,26 +5,26 @@ import { GreenButton } from '../components/buttons/buttons';
 import Navbar from '../components/Navbar';
 
 export default function Contact() {
-
+    //
     const [name, setName] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
     const [email, setEmail] = useState("");
-
+    //
     const handleSubmit = (e) => {
         e.preventDefault();
-
+        //
         e.target.reset()
-
+        //
         let prospectData = {
             name,
             phoneNumber,
             email
         };
-
         //Send Data To A Server To Send Email
         console.log(prospectData);
     }
-
+    
+    //
     return (
         <>
             <Navbar />

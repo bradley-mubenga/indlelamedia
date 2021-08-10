@@ -3,10 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 //
-import Contact from './Contact';
-
-
-//
 export default function Navbar() {
     const [ navbarClass, setNavbarClass ] = useState(false);
 
@@ -37,9 +33,10 @@ export default function Navbar() {
                 
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav ms-auto mb-2 mb-md-0">
-                        <li className="nav-item">
+
+                        <li className="nav-item p-2">
                             <Link href="/">
-                                <a className="nav-link">Home</a>
+                                <a className="nav-link" aria-current="page">Home</a>
                             </Link>
                         </li>
 
@@ -52,12 +49,6 @@ export default function Navbar() {
                         <li className="nav-item p-2">
                             <Link href="/contact">
                                 <a className="nav-link" aria-current="page">Contact</a>
-                            </Link>
-                        </li>
-
-                        <li className="nav-item p-2">
-                            <Link href="/">
-                                <a className="nav-link" aria-current="page"></a>
                             </Link>
                         </li>
                     </ul>

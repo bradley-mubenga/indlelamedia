@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/home.js/Hero';
 import CallToAction from '../components/home.js/CallToAction';
 import TheProcess from '../components/home.js/TheProcess';
+import Footer from '../components/Footer';
 
 export default function Index() {
     return (
@@ -22,6 +23,7 @@ export default function Index() {
                 <CallToAction text={`We provide crucial data that inform companies on the best candidates to approach for CSI/SED initiatives.`} />
                 <TheProcess />
                 <CallToAction text={`Want to know how we can help you achive your CSI goals? Click the button below to book your consultation.`} buttonText={`Consultation`}/>
+                <Footer />
             </main>
         </>
     )
