@@ -19,8 +19,9 @@ export default function Index() {
             
             <main>
                 <HeroSection />
-                <CallToAction />
+                <CallToAction text={`We provide crucial data that inform companies on the best candidates to approach for CSI/SED initiatives.`} />
                 <TheProcess />
+                <CallToAction text={`Want to know how we can help you achive your CSI goals? Click the button below to book your consultation.`} buttonText={`Consultation`}/>
             </main>
         </>
     )

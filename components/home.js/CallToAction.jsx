@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 //Components
 import { GreenButton } from '../buttons/buttons';
 
-export default function CallToAction() {
+export default function CallToAction({text, buttonText}) {
     
     //Responsive Device State For Extra Large Devices
     const [ largeDevice, setContainer ] = useState(false);
@@ -24,11 +24,11 @@ export default function CallToAction() {
                 <div className="container">
                     <div className="row text-center">
                         <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p className="lead callToActionText">We provide crucial data that inform companies on the best candidates to approach for CSI/SED initiatives.</p>
+                            <p className="lead callToActionText">{text}</p>
                         </div>
 
                         <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                            <GreenButton text={"How We Do It"} route={"/learn-more"}/>
+                            { buttonText ? <GreenButton text={buttonText} route={"/learn-more"} /> : (<h1></h1>) }
                         </div>
                     </div>
                 </div>
